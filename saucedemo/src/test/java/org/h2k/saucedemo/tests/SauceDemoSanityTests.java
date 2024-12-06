@@ -22,7 +22,11 @@ public class SauceDemoSanityTests extends BaseClass{
 		String expected = productsPage.addToCart();
 		String actual = productsPage.navigateToCart();
 		HomePage hPage = new HomePage(driver);
+		System.out.println("expected text:" + expected);
+		System.out.println("actual text:" + actual);
+		
 		hPage.logout();
+		
 		Assert.assertEquals(actual,expected);
 
 	}
