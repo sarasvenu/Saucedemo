@@ -34,12 +34,8 @@ public class ProductsPage {
 		//return driver.findElement(By.id("inventory_item_name")).getText();
 		
 		driver.findElement(By.xpath("//span[@class='shopping_cart_badge']")).click();
-		return driver.findElement(By.xpath("//div[@class='inventory_item_name']")).getText();   //element not interactable exception
-		//return driver.findElement(By.xpath("//div[text()='Sauce Labs Backpack']")).getText();
-		//return driver.findElement(By.xpath("//div[contains(text(),'Sauce Labs Backpack')]")).getText();
-		//return driver.findElement(By.linkText("Sauce Labs Backpack")).getText();
+		return driver.findElement(By.xpath("//div[@class='inventory_item_name']")).getText();   
 		
-		//return driver.findElement(By.xpath("//div[@class='cart_desc_label']")).getText();  
 		
 		
 	}
