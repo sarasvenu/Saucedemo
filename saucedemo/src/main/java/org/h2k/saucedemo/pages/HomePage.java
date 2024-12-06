@@ -14,8 +14,8 @@ public class HomePage {
 	public void logout()
 	{
 		//logout
-		driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']")).click();
-		driver.findElement(By.id("logout_sidebar_link")).click();
+		driver.findElement(By.xpath("//button[@id='react-burger-menu-btn']")).click();  //open menu
+		driver.findElement(By.id("logout_sidebar_link")).click();  //click on logout 
 	}
 
 }
